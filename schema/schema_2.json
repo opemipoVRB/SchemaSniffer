@@ -1,0 +1,102 @@
+{
+  "message": {
+    "type": "object",
+    "properties": {
+      "user": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "tag": "",
+            "description": "",
+            "required": false
+          },
+          "nickname": {
+            "type": "string",
+            "tag": "",
+            "description": "",
+            "required": false
+          },
+          "title": {
+            "type": "string",
+            "tag": "",
+            "description": "",
+            "required": false
+          },
+          "accountType": {
+            "type": "string",
+            "tag": "",
+            "description": "",
+            "required": false
+          },
+          "countryCode": {
+            "type": "string",
+            "tag": "",
+            "description": "",
+            "required": false
+          },
+          "orientation": {
+            "type": "string",
+            "tag": "",
+            "description": "",
+            "required": false
+          }
+        },
+        "tag": "",
+        "description": "",
+        "required": false
+      },
+      "time": {
+        "type": "integer",
+        "tag": "",
+        "description": "",
+        "required": false
+      },
+      "acl": {
+        "type": "array",
+        "items": {},
+        "tag": "",
+        "description": "",
+        "required": false
+      },
+      "publicFeed": {
+        "type": "boolean",
+        "tag": "",
+        "description": "",
+        "required": false
+      },
+      "internationalCountries": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "tag": "",
+          "description": "",
+          "enum": [
+            "ABCDEFGHIJKLMNOPQRSTUVWXY",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "ABCDEFGHIJKLM",
+            "ABCDEFGHIJK",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+            "ABCDEFGHIJKLMNOPQ",
+            "ABCDEFG",
+            "ABCDEFGHIJKLMNOPQRSTUVW",
+            "ABCDEFGHIJKLMNOPQR"
+          ],
+          "required": false
+        },
+        "tag": "",
+        "description": "",
+        "required": false
+      },
+      "topTraderFeed": {
+        "type": "boolean",
+        "tag": "",
+        "description": "",
+        "required": false
+      }
+    },
+    "tag": "",
+    "description": "",
+    "required": false
+  }
+}
